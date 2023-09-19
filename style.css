@@ -30,7 +30,7 @@ main {
 
 .book-input div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -95,4 +95,20 @@ footer {
 
 .delete-button:hover {
     background-color: #a94442;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a[href="https://twitter.com/FullTechFlowCEO"] {
+    text-decoration: underline; 
+    color: white;
+}
+
+footer a[href="https://www.linkedin.com/in/ignacio-manuel-castañeda-acuña-1a4b07243"] {
+    text-decoration: underline;
+    color: white; 
 }
